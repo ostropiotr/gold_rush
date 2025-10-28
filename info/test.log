@@ -1,0 +1,631 @@
+2025.10.28 09:16:30
+
+> Task :clean
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava FAILED
+
+[Incubating] Problems report is available at: file:///home/olek/Projekty/zajecia/io/gold_rush_test_students/build/reports/problems/problems-report.html
+3 actionable tasks: 3 executed/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:2: error: cannot find symbol
+import edu.io.Player;
+             ^
+  symbol:   class Player
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:12: error: cannot find symbol
+    Player player;
+    ^
+  symbol:   class Player
+  location: class PlayerTokenTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:2: error: cannot find symbol
+import edu.io.Game;
+             ^
+  symbol:   class Game
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:3: error: cannot find symbol
+import edu.io.Player;
+             ^
+  symbol:   class Player
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:13: error: cannot find symbol
+    Game game;
+    ^
+  symbol:   class Game
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:14: error: cannot find symbol
+    Player player;
+    ^
+  symbol:   class Player
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:2: error: cannot find symbol
+import edu.io.Player;
+             ^
+  symbol:   class Player
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:10: error: cannot find symbol
+    Player player;
+    ^
+  symbol:   class Player
+  location: class BoardTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/TokenTest.java:2: error: cannot find symbol
+import edu.io.Player;
+             ^
+  symbol:   class Player
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:2: error: cannot find symbol
+import edu.io.token.PyriteToken;
+                   ^
+  symbol:   class PyriteToken
+  location: package edu.io.token
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:2: error: cannot find symbol
+import edu.io.Player;
+             ^
+  symbol:   class Player
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:12: error: cannot find symbol
+    Player player;
+    ^
+  symbol:   class Player
+  location: class PlayerTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:17: error: cannot find symbol
+        player = new Player();
+                     ^
+  symbol:   class Player
+  location: class PlayerTokenTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:18: error: cannot find symbol
+        game = new Game();
+                   ^
+  symbol:   class Game
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:19: error: cannot find symbol
+        player = new Player();
+                     ^
+  symbol:   class Player
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:35: error: cannot find symbol
+            Field[] fields = Game.class.getDeclaredFields();
+                             ^
+  symbol:   class Game
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:56: error: cannot find symbol
+        Assertions.assertDoesNotThrow(() -> Game.class.getMethod("start"));
+                                            ^
+  symbol:   class Game
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:15: error: cannot find symbol
+        player = new Player();
+                     ^
+  symbol:   class Player
+  location: class BoardTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:46: error: cannot find symbol
+        Board.Coords c = board.getAvailableSquare();
+                              ^
+  symbol:   method getAvailableSquare()
+  location: variable board of type Board
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:51: error: cannot find symbol
+        c = board.getAvailableSquare();
+                 ^
+  symbol:   method getAvailableSquare()
+  location: variable board of type Board
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:63: error: cannot find symbol
+            Board.Coords c = board.getAvailableSquare();
+                                  ^
+  symbol:   method getAvailableSquare()
+  location: variable board of type Board
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:68: error: cannot find symbol
+                () -> board.getAvailableSquare());
+                           ^
+  symbol:   method getAvailableSquare()
+  location: variable board of type Board
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/TokenTest.java:38: error: cannot find symbol
+                new PlayerToken(new Player(), new Board()).label());
+                                    ^
+  symbol:   class Player
+  location: class TokenTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:12: error: cannot find symbol
+        Assertions.assertEquals(1.0, t.amount());
+                                      ^
+  symbol:   method amount()
+  location: variable t of type GoldToken
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:17: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+        var t = new GoldToken(1.5);
+                ^
+  required: no arguments
+  found:    double
+  reason: actual and formal argument lists differ in length
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:25: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+                () -> new GoldToken(-1));
+                      ^
+  required: no arguments
+  found:    int
+  reason: actual and formal argument lists differ in length
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:30: error: cannot find symbol
+        var t = new PyriteToken();
+                    ^
+  symbol:   class PyriteToken
+  location: class GoldTokenTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:17: error: cannot find symbol
+        player = new Player();
+                     ^
+  symbol:   class Player
+  location: class PlayerTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:29: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+        var goldToken = new GoldToken(2.0);
+                        ^
+  required: no arguments
+  found:    double
+  reason: actual and formal argument lists differ in length
+29 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler output below.
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:17: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+          var t = new GoldToken(1.5);
+                  ^
+    required: no arguments
+    found:    double
+    reason: actual and formal argument lists differ in length
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:25: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+                  () -> new GoldToken(-1));
+                        ^
+    required: no arguments
+    found:    int
+    reason: actual and formal argument lists differ in length
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:29: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+          var goldToken = new GoldToken(2.0);
+                          ^
+    required: no arguments
+    found:    double
+    reason: actual and formal argument lists differ in length
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:2: error: cannot find symbol
+  import edu.io.Player;
+               ^
+    symbol:   class Player
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:12: error: cannot find symbol
+      Player player;
+      ^
+    symbol:   class Player
+    location: class PlayerTokenTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:2: error: cannot find symbol
+  import edu.io.Game;
+               ^
+    symbol:   class Game
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:3: error: cannot find symbol
+  import edu.io.Player;
+               ^
+    symbol:   class Player
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:13: error: cannot find symbol
+      Game game;
+      ^
+    symbol:   class Game
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:14: error: cannot find symbol
+      Player player;
+      ^
+    symbol:   class Player
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:2: error: cannot find symbol
+  import edu.io.Player;
+               ^
+    symbol:   class Player
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:10: error: cannot find symbol
+      Player player;
+      ^
+    symbol:   class Player
+    location: class BoardTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/TokenTest.java:2: error: cannot find symbol
+  import edu.io.Player;
+               ^
+    symbol:   class Player
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:2: error: cannot find symbol
+  import edu.io.token.PyriteToken;
+                     ^
+    symbol:   class PyriteToken
+    location: package edu.io.token
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:2: error: cannot find symbol
+  import edu.io.Player;
+               ^
+    symbol:   class Player
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:12: error: cannot find symbol
+      Player player;
+      ^
+    symbol:   class Player
+    location: class PlayerTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:17: error: cannot find symbol
+          player = new Player();
+                       ^
+    symbol:   class Player
+    location: class PlayerTokenTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:18: error: cannot find symbol
+          game = new Game();
+                     ^
+    symbol:   class Game
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:19: error: cannot find symbol
+          player = new Player();
+                       ^
+    symbol:   class Player
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:35: error: cannot find symbol
+              Field[] fields = Game.class.getDeclaredFields();
+                               ^
+    symbol:   class Game
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:56: error: cannot find symbol
+          Assertions.assertDoesNotThrow(() -> Game.class.getMethod("start"));
+                                              ^
+    symbol:   class Game
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:15: error: cannot find symbol
+          player = new Player();
+                       ^
+    symbol:   class Player
+    location: class BoardTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/TokenTest.java:38: error: cannot find symbol
+                  new PlayerToken(new Player(), new Board()).label());
+                                      ^
+    symbol:   class Player
+    location: class TokenTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:30: error: cannot find symbol
+          var t = new PyriteToken();
+                      ^
+    symbol:   class PyriteToken
+    location: class GoldTokenTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:17: error: cannot find symbol
+          player = new Player();
+                       ^
+    symbol:   class Player
+    location: class PlayerTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:46: error: cannot find symbol
+          Board.Coords c = board.getAvailableSquare();
+                                ^
+    symbol:   method getAvailableSquare()
+    location: variable board of type Board
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:51: error: cannot find symbol
+          c = board.getAvailableSquare();
+                   ^
+    symbol:   method getAvailableSquare()
+    location: variable board of type Board
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:63: error: cannot find symbol
+              Board.Coords c = board.getAvailableSquare();
+                                    ^
+    symbol:   method getAvailableSquare()
+    location: variable board of type Board
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:68: error: cannot find symbol
+                  () -> board.getAvailableSquare());
+                             ^
+    symbol:   method getAvailableSquare()
+    location: variable board of type Board
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:12: error: cannot find symbol
+          Assertions.assertEquals(1.0, t.amount());
+                                        ^
+    symbol:   method amount()
+    location: variable t of type GoldToken
+  29 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 675ms
+[STDERR]
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:2: error: cannot find symbol
+import edu.io.Player;
+             ^
+  symbol:   class Player
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:12: error: cannot find symbol
+    Player player;
+    ^
+  symbol:   class Player
+  location: class PlayerTokenTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:2: error: cannot find symbol
+import edu.io.Game;
+             ^
+  symbol:   class Game
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:3: error: cannot find symbol
+import edu.io.Player;
+             ^
+  symbol:   class Player
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:13: error: cannot find symbol
+    Game game;
+    ^
+  symbol:   class Game
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:14: error: cannot find symbol
+    Player player;
+    ^
+  symbol:   class Player
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:2: error: cannot find symbol
+import edu.io.Player;
+             ^
+  symbol:   class Player
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:10: error: cannot find symbol
+    Player player;
+    ^
+  symbol:   class Player
+  location: class BoardTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/TokenTest.java:2: error: cannot find symbol
+import edu.io.Player;
+             ^
+  symbol:   class Player
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:2: error: cannot find symbol
+import edu.io.token.PyriteToken;
+                   ^
+  symbol:   class PyriteToken
+  location: package edu.io.token
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:2: error: cannot find symbol
+import edu.io.Player;
+             ^
+  symbol:   class Player
+  location: package edu.io
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:12: error: cannot find symbol
+    Player player;
+    ^
+  symbol:   class Player
+  location: class PlayerTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:17: error: cannot find symbol
+        player = new Player();
+                     ^
+  symbol:   class Player
+  location: class PlayerTokenTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:18: error: cannot find symbol
+        game = new Game();
+                   ^
+  symbol:   class Game
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:19: error: cannot find symbol
+        player = new Player();
+                     ^
+  symbol:   class Player
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:35: error: cannot find symbol
+            Field[] fields = Game.class.getDeclaredFields();
+                             ^
+  symbol:   class Game
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:56: error: cannot find symbol
+        Assertions.assertDoesNotThrow(() -> Game.class.getMethod("start"));
+                                            ^
+  symbol:   class Game
+  location: class GameTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:15: error: cannot find symbol
+        player = new Player();
+                     ^
+  symbol:   class Player
+  location: class BoardTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:46: error: cannot find symbol
+        Board.Coords c = board.getAvailableSquare();
+                              ^
+  symbol:   method getAvailableSquare()
+  location: variable board of type Board
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:51: error: cannot find symbol
+        c = board.getAvailableSquare();
+                 ^
+  symbol:   method getAvailableSquare()
+  location: variable board of type Board
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:63: error: cannot find symbol
+            Board.Coords c = board.getAvailableSquare();
+                                  ^
+  symbol:   method getAvailableSquare()
+  location: variable board of type Board
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:68: error: cannot find symbol
+                () -> board.getAvailableSquare());
+                           ^
+  symbol:   method getAvailableSquare()
+  location: variable board of type Board
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/TokenTest.java:38: error: cannot find symbol
+                new PlayerToken(new Player(), new Board()).label());
+                                    ^
+  symbol:   class Player
+  location: class TokenTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:12: error: cannot find symbol
+        Assertions.assertEquals(1.0, t.amount());
+                                      ^
+  symbol:   method amount()
+  location: variable t of type GoldToken
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:17: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+        var t = new GoldToken(1.5);
+                ^
+  required: no arguments
+  found:    double
+  reason: actual and formal argument lists differ in length
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:25: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+                () -> new GoldToken(-1));
+                      ^
+  required: no arguments
+  found:    int
+  reason: actual and formal argument lists differ in length
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:30: error: cannot find symbol
+        var t = new PyriteToken();
+                    ^
+  symbol:   class PyriteToken
+  location: class GoldTokenTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:17: error: cannot find symbol
+        player = new Player();
+                     ^
+  symbol:   class Player
+  location: class PlayerTest
+/home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:29: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+        var goldToken = new GoldToken(2.0);
+                        ^
+  required: no arguments
+  found:    double
+  reason: actual and formal argument lists differ in length
+29 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler output below.
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:17: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+          var t = new GoldToken(1.5);
+                  ^
+    required: no arguments
+    found:    double
+    reason: actual and formal argument lists differ in length
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:25: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+                  () -> new GoldToken(-1));
+                        ^
+    required: no arguments
+    found:    int
+    reason: actual and formal argument lists differ in length
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:29: error: constructor GoldToken in class GoldToken cannot be applied to given types;
+          var goldToken = new GoldToken(2.0);
+                          ^
+    required: no arguments
+    found:    double
+    reason: actual and formal argument lists differ in length
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:2: error: cannot find symbol
+  import edu.io.Player;
+               ^
+    symbol:   class Player
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:12: error: cannot find symbol
+      Player player;
+      ^
+    symbol:   class Player
+    location: class PlayerTokenTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:2: error: cannot find symbol
+  import edu.io.Game;
+               ^
+    symbol:   class Game
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:3: error: cannot find symbol
+  import edu.io.Player;
+               ^
+    symbol:   class Player
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:13: error: cannot find symbol
+      Game game;
+      ^
+    symbol:   class Game
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:14: error: cannot find symbol
+      Player player;
+      ^
+    symbol:   class Player
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:2: error: cannot find symbol
+  import edu.io.Player;
+               ^
+    symbol:   class Player
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:10: error: cannot find symbol
+      Player player;
+      ^
+    symbol:   class Player
+    location: class BoardTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/TokenTest.java:2: error: cannot find symbol
+  import edu.io.Player;
+               ^
+    symbol:   class Player
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:2: error: cannot find symbol
+  import edu.io.token.PyriteToken;
+                     ^
+    symbol:   class PyriteToken
+    location: package edu.io.token
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:2: error: cannot find symbol
+  import edu.io.Player;
+               ^
+    symbol:   class Player
+    location: package edu.io
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:12: error: cannot find symbol
+      Player player;
+      ^
+    symbol:   class Player
+    location: class PlayerTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTokenTest.java:17: error: cannot find symbol
+          player = new Player();
+                       ^
+    symbol:   class Player
+    location: class PlayerTokenTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:18: error: cannot find symbol
+          game = new Game();
+                     ^
+    symbol:   class Game
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:19: error: cannot find symbol
+          player = new Player();
+                       ^
+    symbol:   class Player
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:35: error: cannot find symbol
+              Field[] fields = Game.class.getDeclaredFields();
+                               ^
+    symbol:   class Game
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GameTest.java:56: error: cannot find symbol
+          Assertions.assertDoesNotThrow(() -> Game.class.getMethod("start"));
+                                              ^
+    symbol:   class Game
+    location: class GameTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:15: error: cannot find symbol
+          player = new Player();
+                       ^
+    symbol:   class Player
+    location: class BoardTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/TokenTest.java:38: error: cannot find symbol
+                  new PlayerToken(new Player(), new Board()).label());
+                                      ^
+    symbol:   class Player
+    location: class TokenTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:30: error: cannot find symbol
+          var t = new PyriteToken();
+                      ^
+    symbol:   class PyriteToken
+    location: class GoldTokenTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/PlayerTest.java:17: error: cannot find symbol
+          player = new Player();
+                       ^
+    symbol:   class Player
+    location: class PlayerTest
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:46: error: cannot find symbol
+          Board.Coords c = board.getAvailableSquare();
+                                ^
+    symbol:   method getAvailableSquare()
+    location: variable board of type Board
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:51: error: cannot find symbol
+          c = board.getAvailableSquare();
+                   ^
+    symbol:   method getAvailableSquare()
+    location: variable board of type Board
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:63: error: cannot find symbol
+              Board.Coords c = board.getAvailableSquare();
+                                    ^
+    symbol:   method getAvailableSquare()
+    location: variable board of type Board
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/BoardTest.java:68: error: cannot find symbol
+                  () -> board.getAvailableSquare());
+                             ^
+    symbol:   method getAvailableSquare()
+    location: variable board of type Board
+  /home/olek/Projekty/zajecia/io/gold_rush_test_students/src/test/java/GoldTokenTest.java:12: error: cannot find symbol
+          Assertions.assertEquals(1.0, t.amount());
+                                        ^
+    symbol:   method amount()
+    location: variable t of type GoldToken
+  29 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 675ms
